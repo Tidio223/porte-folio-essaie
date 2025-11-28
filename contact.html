@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="main-title">MON PORTFOLIO</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="contact" class="contact-section">
+
+        <h2 class="contact-title">CONTACT</h2>
+
+        <div class="contact-container">
+
+            <!-- Flybox 1 : Formulaire -->
+            <div class="flybox">
+                <h3 class="flybox-title">Envoyez-moi un message</h3>
+
+                <form class="contact-form">
+                    <input type="text" placeholder="Nom complet" required>
+                    <input type="email" placeholder="Adresse email" required>
+
+                    <select required>
+                        <option value="">-- Sujet --</option>
+                        <option>Demande d'informations</option>
+                        <option>Collaboration</option>
+                        <option>Proposition de travail</option>
+                        <option>Autre</option>
+                    </select>
+
+                    <textarea placeholder="Votre message..." rows="6" required></textarea>
+
+                    <button type="submit" class="btn-send">Envoyer le message</button>
+                </form>
+            </div>
+
+            <!-- Flybox 2 : Coordonnées -->
+            <div class="flybox">
+                <h3 class="flybox-title">Coordonnées</h3>
+
+                <p><strong>Email :</strong> contact@monportfolio.com</p>
+                <p><strong>Téléphone :</strong> (123) 456-7890</p>
+                <p><strong>Localisation :</strong> Paris, France</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - Mon Portfolio | Tous droits réservés</p>
+    </footer>
+</body>
+</html>
